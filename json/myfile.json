@@ -11,7 +11,8 @@
         "directors": "Frank Darabont",
         "writers": "Stephen King,Frank Darabont",
         "cover_page": "css\/images\/movie1.jpg",
-        "plot": "Andy Dufresne, a successful banker, is arrested for the murders of his wife and her lover, and is sentenced to life imprisonment at the Shawshank prison. He becomes the most unconventional prisoner."
+        "plot": "Andy Dufresne, a successful banker, is arrested for the murders of his wife and her lover, and is sentenced to life imprisonment at the Shawshank prison. He becomes the most unconventional prisoner.",
+        "genre": "Drama"
     },
     {
         "movie_id": "2",
@@ -25,7 +26,8 @@
         "directors": "Francis Ford Coppola",
         "writers": "Mario Puzo,Francis Ford Coppola",
         "cover_page": "css\/images\/movie2.jpg",
-        "plot": "Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger."
+        "plot": "Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.",
+        "genre": "Crime"
     },
     {
         "movie_id": "3",
@@ -39,7 +41,8 @@
         "directors": "Christopher Nolan",
         "writers": "Jonathan Nolan,Christopher Nolan,David S. Goyer",
         "cover_page": "css\/images\/movie3.jpg",
-        "plot": "After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees."
+        "plot": "After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.",
+        "genre": "Action"
     },
     {
         "movie_id": "4",
@@ -53,7 +56,8 @@
         "directors": "Francis Ford Coppola",
         "writers": "Francis Ford Coppola,Mario Puzo",
         "cover_page": "css\/images\/movie4.jpg",
-        "plot": "Michael, Vito Corleone's son, attempts to expand his family's criminal empire. While he strikes a business deal with gangster Hyman Roth, he remains unaware of the lurking danger."
+        "plot": "Michael, Vito Corleone's son, attempts to expand his family's criminal empire. While he strikes a business deal with gangster Hyman Roth, he remains unaware of the lurking danger.",
+        "genre": "Crime"
     },
     {
         "movie_id": "5",
@@ -67,7 +71,8 @@
         "directors": "Sidney Lumet",
         "writers": "Reginald Rose",
         "cover_page": "css\/images\/movie5.jpg",
-        "plot": "A dissenting juror in a murder trial slowly manages to convince the others that the case is not as obviously clear as it seemed in court."
+        "plot": "A dissenting juror in a murder trial slowly manages to convince the others that the case is not as obviously clear as it seemed in court.",
+        "genre": "Drama"
     },
     {
         "movie_id": "6",
@@ -81,7 +86,8 @@
         "directors": "Steven Spielberg",
         "writers": "Thomas Keneally,Steven Zaillian",
         "cover_page": "css\/images\/movie6.jpg",
-        "plot": "Oskar Schindler becomes an unlikely humanitarian, spending his entire fortune to help save 1,100 Jews from Auschwitz during World War II."
+        "plot": "Oskar Schindler becomes an unlikely humanitarian, spending his entire fortune to help save 1,100 Jews from Auschwitz during World War II.",
+        "genre": "War"
     },
     {
         "movie_id": "7",
@@ -95,7 +101,8 @@
         "directors": "Peter Jackson",
         "writers": "J.R.R. Tolkien,Fran Walsh,Philippa Boyens",
         "cover_page": "css\/images\/movie7.jpg",
-        "plot": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor."
+        "plot": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor.",
+        "genre": "Adventure"
     },
     {
         "movie_id": "8",
@@ -109,7 +116,8 @@
         "directors": "Quentin Tarantino",
         "writers": "Quentin Tarantino,Roger Avary",
         "cover_page": "css\/images\/movie8.jpg",
-        "plot": "This stylized crime caper weaves together stories featuring a burger-loving hit man, his philosophical partner and a washed-up boxer."
+        "plot": "This stylized crime caper weaves together stories featuring a burger-loving hit man, his philosophical partner and a washed-up boxer.",
+        "genre": "Drama"
     },
     {
         "movie_id": "9",
@@ -123,7 +131,8 @@
         "directors": "Peter Jackson",
         "writers": "J.R.R. Tolkien,Fran Walsh,Philippa Boyens",
         "cover_page": "css\/images\/movie9.jpg",
-        "plot": "A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed."
+        "plot": "A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.",
+        "genre": "Adventure"
     },
     {
         "movie_id": "10",
@@ -137,7 +146,8 @@
         "directors": "Sergio Leone",
         "writers": "Luciano Vincenzoni,Sergio Leone,Agenore Incrocci",
         "cover_page": "css\/images\/movie10.jpg",
-        "plot": "During the Civil War, two men, Blondie and Tuco, form an uncomfortable alliance while looking for treasure. They must also outwit Angel Eyes, an outlaw who wants to plunder the riches for himself."
+        "plot": "During the Civil War, two men, Blondie and Tuco, form an uncomfortable alliance while looking for treasure. They must also outwit Angel Eyes, an outlaw who wants to plunder the riches for himself.",
+        "genre": "Western"
     },
     {
         "movie_id": "11",
@@ -151,7 +161,8 @@
         "directors": "Robert Zemeckis",
         "writers": "Winston Groom,Eric Roth",
         "cover_page": "css\/images\/movie11.jpg",
-        "plot": "Forrest, a man with low IQ, recounts the early years of his life when he found himself in the middle of key historical events. All he wants now is to be reunited with his childhood sweetheart, Jenny."
+        "plot": "Forrest, a man with low IQ, recounts the early years of his life when he found himself in the middle of key historical events. All he wants now is to be reunited with his childhood sweetheart, Jenny.",
+        "genre": "Drama"
     },
     {
         "movie_id": "12",
@@ -165,7 +176,8 @@
         "directors": "David Fincher",
         "writers": "Chuck Palahniuk,Jim Uhls",
         "cover_page": "css\/images\/movie12.jpg",
-        "plot": "Unhappy with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. Soon, their venture spirals down into something sinister."
+        "plot": "Unhappy with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. Soon, their venture spirals down into something sinister.",
+        "genre": "Drama"
     },
     {
         "movie_id": "13",
@@ -179,7 +191,8 @@
         "directors": "Peter Jackson",
         "writers": "J.R.R. Tolkien,Fran Walsh,Philippa Boyens",
         "cover_page": "css\/images\/movie13.jpg",
-        "plot": "Frodo and Sam head to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin."
+        "plot": "Frodo and Sam head to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin.",
+        "genre": "Adventure"
     },
     {
         "movie_id": "14",
@@ -193,7 +206,8 @@
         "directors": "Christopher Nolan",
         "writers": "Christopher Nolan",
         "cover_page": "css\/images\/movie14.jpg",
-        "plot": "A troubled thief who extracts secrets from people's dreams takes one last job: leading a dangerous mission to plant an idea in a target's subconscious."
+        "plot": "A troubled thief who extracts secrets from people's dreams takes one last job: leading a dangerous mission to plant an idea in a target's subconscious.",
+        "genre": "Action"
     },
     {
         "movie_id": "15",
@@ -207,7 +221,8 @@
         "directors": "Irvin Kershner",
         "writers": "Leigh Brackett,Lawrence Kasdan,George Lucas",
         "cover_page": "css\/images\/movie15.jpg",
-        "plot": "Darth Vader is adamant about turning Luke Skywalker to the dark side. Master Yoda trains Luke to become a Jedi Knight while his friends try to fend off the Imperial fleet."
+        "plot": "Darth Vader is adamant about turning Luke Skywalker to the dark side. Master Yoda trains Luke to become a Jedi Knight while his friends try to fend off the Imperial fleet.",
+        "genre": "Adventure"
     },
     {
         "movie_id": "16",
@@ -221,7 +236,8 @@
         "directors": "Lana Wachowski,Lilly Wachowski",
         "writers": "Lilly Wachowski,Lana Wachowski",
         "cover_page": "css\/images\/movie16.jpg",
-        "plot": "A computer hacker learns that what most people perceive as reality is actually a simulation created by machines, and joins a rebellion to break free."
+        "plot": "A computer hacker learns that what most people perceive as reality is actually a simulation created by machines, and joins a rebellion to break free.",
+        "genre": "Action"
     },
     {
         "movie_id": "17",
@@ -235,7 +251,8 @@
         "directors": "Martin Scorsese",
         "writers": "Nicholas Pileggi,Martin Scorsese",
         "cover_page": "css\/images\/movie17.jpg",
-        "plot": "Former mobster Henry Hill recounts his colorful yet violent rise and fall in a New York crime family \u2013 a high-rolling dream turned paranoid nightmare."
+        "plot": "Former mobster Henry Hill recounts his colorful yet violent rise and fall in a New York crime family \u2013 a high-rolling dream turned paranoid nightmare.",
+        "genre": "Crime"
     },
     {
         "movie_id": "18",
@@ -249,7 +266,8 @@
         "directors": "Milos Forman",
         "writers": "Lawrence Hauben,Bo Goldman,Ken Kesey",
         "cover_page": "css\/images\/movie18.jpg",
-        "plot": "One Flew Over the Cuckoo's Nest\" follows Randle McMurphy's rebellious clash with the oppressive Nurse Ratched in a mental institution"
+        "plot": "One Flew Over the Cuckoo's Nest\" follows Randle McMurphy's rebellious clash with the oppressive Nurse Ratched in a mental institution",
+        "genre": "Drama"
     },
     {
         "movie_id": "19",
@@ -263,7 +281,8 @@
         "directors": "David Fincher",
         "writers": "Andrew Kevin Walker",
         "cover_page": "css\/images\/movie19.jpg",
-        "plot": "Se7en\" is a dark and intense crime thriller where two detectives track down a serial killer who uses the seven deadly sins as inspiration for his disturbing murders."
+        "plot": "Se7en\" is a dark and intense crime thriller where two detectives track down a serial killer who uses the seven deadly sins as inspiration for his disturbing murders.",
+        "genre": "Drama"
     },
     {
         "movie_id": "20",
@@ -277,7 +296,8 @@
         "directors": "Akira Kurosawa",
         "writers": "Akira Kurosawa,Shinobu Hashimoto,Hideo Oguni",
         "cover_page": "css\/images\/movie20.jpg",
-        "plot": "Seven Samurai\" depicts a group of samurai defending a village from bandits."
+        "plot": "Seven Samurai\" depicts a group of samurai defending a village from bandits.",
+        "genre": "Action"
     },
     {
         "movie_id": "21",
@@ -291,7 +311,8 @@
         "directors": "Frank Capra",
         "writers": "Frances Goodrich,Albert Hackett,Frank Capra",
         "cover_page": "css\/images\/movie21.jpg",
-        "plot": "It's a Wonderful Life is about a man who learns the value of his life with the help of a guardian angel."
+        "plot": "It's a Wonderful Life is about a man who learns the value of his life with the help of a guardian angel.",
+        "genre": "Family"
     },
     {
         "movie_id": "22",
@@ -305,7 +326,8 @@
         "directors": "Jonathan Demme",
         "writers": "Thomas Harris,Ted Tally",
         "cover_page": "css\/images\/movie22.jpg",
-        "plot": "The Silence of the Lambs\" is a gripping psychological thriller with a notorious serial killer and an FBI agent in pursuit."
+        "plot": "The Silence of the Lambs\" is a gripping psychological thriller with a notorious serial killer and an FBI agent in pursuit.",
+        "genre": "Thriller"
     },
     {
         "movie_id": "23",
@@ -319,7 +341,8 @@
         "directors": "Fernando Meirelles,K\u00e1tia Lund(co-director)",
         "writers": "Paulo Lins,Br\u00e1ulio Mantovani",
         "cover_page": "css\/images\/movie23.jpg",
-        "plot": "Growing up in a Rio de Janeiro slum, Rocket is able to avoid being drawn into a life of drugs and crime by having a passion for photography."
+        "plot": "Growing up in a Rio de Janeiro slum, Rocket is able to avoid being drawn into a life of drugs and crime by having a passion for photography.",
+        "genre": "Crime"
     },
     {
         "movie_id": "24",
@@ -333,7 +356,8 @@
         "directors": "Steven Spielberg",
         "writers": "Robert Rodat",
         "cover_page": "css\/images\/movie24.jpg",
-        "plot": "Saving Private Ryan\" is a war film about a group of soldiers sent to find and bring back a paratrooper whose brothers have been killed in action during World War II."
+        "plot": "Saving Private Ryan\" is a war film about a group of soldiers sent to find and bring back a paratrooper whose brothers have been killed in action during World War II.",
+        "genre": "War"
     },
     {
         "movie_id": "25",
@@ -347,7 +371,8 @@
         "directors": "Christopher Nolan",
         "writers": "Jonathan Nolan,Christopher Nolan",
         "cover_page": "css\/images\/movie25.jpg",
-        "plot": "Interstellar is a science fiction film that follows a group of astronauts who travel through a wormhole in search of a habitable planet to save humanity from a dying Earth, exploring themes of time dilation, love, and the nature of existence."
+        "plot": "Interstellar is a science fiction film that follows a group of astronauts who travel through a wormhole in search of a habitable planet to save humanity from a dying Earth, exploring themes of time dilation, love, and the nature of existence.",
+        "genre": "Adventure"
     },
     {
         "movie_id": "26",
@@ -361,7 +386,8 @@
         "directors": "Roberto Benigni",
         "writers": "Vincenzo Cerami,Roberto Benigni",
         "cover_page": "css\/images\/movie26.jpg",
-        "plot": "Life Is Beautiful is a touching film set during World War II, where a father uses humor and imagination to shield his young son from the horrors of a concentration camp, showcasing the power of love, resilience, and the human spirit in the face of adversity."
+        "plot": "Life Is Beautiful is a touching film set during World War II, where a father uses humor and imagination to shield his young son from the horrors of a concentration camp, showcasing the power of love, resilience, and the human spirit in the face of adversity.",
+        "genre": "Drama"
     },
     {
         "movie_id": "27",
@@ -375,7 +401,8 @@
         "directors": "Frank Darabont",
         "writers": "Stephen King,Frank Darabont",
         "cover_page": "css\/images\/movie27.jpg",
-        "plot": "The Green Mile\" is a drama film based on Stephen King's novel, telling the story of a death row corrections officer and the extraordinary events that unfold when he encounters a gentle giant with supernatural abilities, highlighting themes of injustice, compassion, and the complexities of human nature."
+        "plot": "The Green Mile\" is a drama film based on Stephen King's novel, telling the story of a death row corrections officer and the extraordinary events that unfold when he encounters a gentle giant with supernatural abilities, highlighting themes of injustice, compassion, and the complexities of human nature.",
+        "genre": "Drama"
     },
     {
         "movie_id": "28",
@@ -389,7 +416,8 @@
         "directors": "George Lucas",
         "writers": "George Lucas",
         "cover_page": "css\/images\/movie28.jpg",
-        "plot": "Star Wars: Episode IV - A New Hope\" is an iconic space adventure where a young hero joins rebels to battle an evil empire in a galaxy far away."
+        "plot": "Star Wars: Episode IV - A New Hope\" is an iconic space adventure where a young hero joins rebels to battle an evil empire in a galaxy far away.",
+        "genre": "Adventure"
     },
     {
         "movie_id": "29",
@@ -403,7 +431,8 @@
         "directors": "James Cameron",
         "writers": "James Cameron,William Wisher",
         "cover_page": "css\/images\/movie29.jpg",
-        "plot": "Terminator 2: Judgment Day is an action-packed sci-fi film where a cyborg, the Terminator, is sent back in time to protect a young boy, John Connor, from a more advanced and deadly Terminator, while also attempting to prevent a future nuclear apocalypse caused by artificial intelligence."
+        "plot": "Terminator 2: Judgment Day is an action-packed sci-fi film where a cyborg, the Terminator, is sent back in time to protect a young boy, John Connor, from a more advanced and deadly Terminator, while also attempting to prevent a future nuclear apocalypse caused by artificial intelligence.",
+        "genre": "Action"
     },
     {
         "movie_id": "30",
@@ -417,6 +446,7 @@
         "directors": "Robert Zemeckis",
         "writers": "Robert Zemeckis,Bob Gale",
         "cover_page": "css\/images\/movie30.jpg",
-        "plot": "Back to the Future\" is a time-traveling adventure where a teenager, Marty McFly, goes back in time and must ensure his parents' meeting while facing comedic obstacles, all with the help of an eccentric scientist and his iconic DeLorean car."
+        "plot": "Back to the Future\" is a time-traveling adventure where a teenager, Marty McFly, goes back in time and must ensure his parents' meeting while facing comedic obstacles, all with the help of an eccentric scientist and his iconic DeLorean car.",
+        "genre": "Adventure"
     }
 ]
