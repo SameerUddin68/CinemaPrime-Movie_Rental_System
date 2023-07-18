@@ -1,7 +1,9 @@
-<?php echo "Welcome to " . $_SERVER["PHP_SELF"]; ?>
+<?php //echo "Welcome to " . $_SERVER["PHP_SELF"]; 
+?>
 
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Welcome to My Website</title>
   <style>
@@ -41,25 +43,28 @@
     }
 
     .a {
-  color: white;
-  text-decoration: none; /* no underline */
-}
+      color: white;
+      text-decoration: none;
+      /* no underline */
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
     <h1>Welcome to My Website</h1>
     <div class="btn-group">
       <form method="post">
         <input class="btn" type="submit" name="signin_btn" value="SIGNIN">
-        <input class="btn" type="submit" name="signup_btn" value="SIGNUP">        
+        <input class="btn" type="submit" name="signup_btn" value="SIGNUP">
     </div>
   </div>
 </body>
+
 </html>
 
 
-<?php 
+<?php
 // handles redirection to signin or signup
 
 if (isset($_POST['signin_btn'])) {
@@ -69,11 +74,8 @@ if (isset($_POST['signin_btn'])) {
 }
 
 if (isset($_POST['signup_btn'])) {
-   // Signup pressed
-    // redirect to signup page
+  // Signup pressed
+  // redirect to signup page
   header("Location: customer_signup.php");
 }
-
 ?>
-
-
