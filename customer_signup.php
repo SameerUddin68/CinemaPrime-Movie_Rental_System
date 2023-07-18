@@ -88,6 +88,9 @@ $paymentMethods = array(
 
             $pay_status = 1;
 
+            $firstName = ucwords(strtolower($firstName));
+            $lastName = ucwords(strtolower($lastName));
+
             $insert_customer = "INSERT INTO customers (first, last, username, email, password, phone_number, pay_status)
                 VALUES ('$firstName', '$lastName', '$username', '$email', '$hash', '$phone_number', '$pay_status');";
 

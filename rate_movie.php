@@ -41,7 +41,7 @@ function validateMovieReview($input) {
         $movie_id = $_SESSION['movie_id'];
         $title = $_SESSION['title'];
 
-        // santise review
+        // sanitise review
         $santized_review = filter_var($review,FILTER_SANITIZE_SPECIAL_CHARS);
 
         echo $santized_review."<br>";

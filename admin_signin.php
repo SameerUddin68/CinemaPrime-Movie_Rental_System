@@ -53,7 +53,7 @@
                    $_SESSION['username'] = $username;
                    
                    //Go to home page
-                   header("Location: admin_home.php");
+                   header("Location: admin_add_movies.php");
                    exit();
 
                }
