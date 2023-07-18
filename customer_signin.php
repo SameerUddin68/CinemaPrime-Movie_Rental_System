@@ -33,6 +33,8 @@
        if (empty($error)) {
            // all data is valid and sanitized
 
+           $username = ucwords(strtolower($username));
+
            $sql = "SELECT password from customers where username = '$username' " ;
            $result = mysqli_query($conn,$sql);
 
