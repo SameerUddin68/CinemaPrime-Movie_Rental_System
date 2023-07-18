@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="css/customer_signup.css">
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Sign Up</h1>
+    <form id="signup-form" action="customer_signup.php" method="post">
+      <div class="form-group">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
+      </div>
+      <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="phone_number">Phone Number</label>
+        <input type="text" id="phone_number" name="phone_number" pattern="[0-9]{10}" required>
+      </div>
+      <div class="form-group">
+        <label for="subscription">Subscription (Bank Details)</label>
+        <input type="text" id="subscription" name="subscription" required>
+      </div>
+      <div class="form-group">
+        <label for="payment-method">Payment Method</label>
+        <div id="payment-method">
+          <div class="payment-option">
+            <input type="radio" id="mastercard" name="payment" value="mastercard" >
+            <label for="mastercard"><i class="fab fa-cc-mastercard"></i> Mastercard</label>
+          </div>
+          <div class="payment-option">
+            <input type="radio" id="visa" name="payment" value="visa" >
+            <label for="visa"><i class="fab fa-cc-visa"></i> Visa</label>
+          </div>
+          <div class="payment-option">
+            <input type="radio" id="unionpay" name="payment" value="unionpay" >
+            <label for="unionpay"><i class="far fa-credit-card"></i> UnionPay</label>
+          </div>
+        </div>
+      </div>
+      <button type="submit" name="signup">Sign Up</button>
+    </form>
+  </div>
+
+
+</body>
+
+</html>
+
+
