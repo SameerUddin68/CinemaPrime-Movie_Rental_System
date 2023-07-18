@@ -68,7 +68,7 @@ if ($result->num_rows > 0) {
 }
 
 // Specify the file path and name for the new JSON file
-$filename = 'json/myfile.json';
+$filename = 'json/movies.json';
 
 // Write the JSON string to the new file
 if (file_put_contents($filename, $json_data)) {
