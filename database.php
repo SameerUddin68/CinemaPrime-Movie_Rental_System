@@ -5,7 +5,6 @@
     $db_user = "root";
     $db_pass = "";
     $db_name = "project";
-    //$conn = "";
 
 
     try {
@@ -18,7 +17,7 @@
     }
 
     if ($conn) {
-        //echo "Connected successfully <br>";
+       // echo "Connected successfully <br>";
     }
 
 
