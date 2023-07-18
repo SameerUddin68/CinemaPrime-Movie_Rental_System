@@ -1,4 +1,4 @@
-<?php echo "Welcome to " . $_SERVER["PHP_SELF"]; ?>
+<?php //echo "Welcome to " . $_SERVER["PHP_SELF"]; ?>
 
 <?php
 include "templates/admin_page.html";
@@ -12,7 +12,7 @@ include "database.php";
 $query = "SELECT AUTO_INCREMENT FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'project' AND TABLE_NAME = 'movies';";
 $result = mysqli_query($conn, $query);
 
-print_r($result);
+//print_r($result);
 
 // Check if the query executed successfully
 if ($result) {
@@ -21,7 +21,7 @@ if ($result) {
     $count = $row['AUTO_INCREMENT'];
 
     // Display the AUTO_INCREMENT value
-    echo "AUTO_INCREMENT value: " . $count;
+    //echo "AUTO_INCREMENT value: " . $count;
 } else {
     // Handle the query error
     echo "Query failed: " . mysqli_error($conn);
@@ -44,11 +44,11 @@ function GetFileExtension($file_name){
     $fileSplit = explode('.', $file_name); // seperate the name and extension
     $fileExt = strtolower(end($fileSplit)); // get the file extension
     
-    //check file extension for file
-    print_r($fileSplit);
-    echo "<br><br>";
-    print_r($fileExt);
-    echo "<br><br>";
+    // //check file extension for file
+    // print_r($fileSplit);
+    // echo "<br><br>";
+    // print_r($fileExt);
+    // echo "<br><br>";
 
     return $fileExt;
 }
@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
     }
 
     $release_year = filter_input(INPUT_POST, 'release-year', FILTER_SANITIZE_NUMBER_INT);
-    echo $release_year;
+    //echo $release_year;
 
     $rating = $_POST['rating'];
     $genre_id = $_POST['genre'];
@@ -84,7 +84,7 @@ if (isset($_POST['submit'])) {
         $casts = "";
         echo "Invalid text";
     }
-    echo $casts;
+    //echo $casts;
 
 
     // validate writers input
@@ -95,7 +95,7 @@ if (isset($_POST['submit'])) {
         $writers = "";
         echo "Invalid text";
     }
-    echo $writers;
+    //echo $writers;
 
     // validate cast input
     $directors = filter_input(INPUT_POST, 'directors', FILTER_SANITIZE_SPECIAL_CHARS);
@@ -105,7 +105,7 @@ if (isset($_POST['submit'])) {
         $directors = "";
         echo "Invalid text";
     }
-    echo $directors;
+    //echo $directors;
 
 
     // validate cast input
@@ -116,7 +116,7 @@ if (isset($_POST['submit'])) {
         $plot = "";
         echo "Invalid text";
     }
-    echo $plot;
+    //echo $plot;
 
 
     // cover
@@ -146,19 +146,19 @@ if (isset($_POST['submit'])) {
 
         if (in_array($vidext, $allowed_file_type) && (in_array($imgext, $allowed_file_type))) {
             //valid file extension
-            echo "valid datatype";
-            echo "<br><br><br>";
+            // echo "valid datatype";
+            // echo "<br><br><br>";
 
             if ($imgfile_size < 500000000 ) {
                 //upload file
                 $imgfilenewname = "movie" . $count . "." . $imgext;
-                echo $imgfilenewname;
-                echo "<br><br><br>";
+                // echo $imgfilenewname;
+                // echo "<br><br><br>";
 
                 //upload file
                 $vidfilenewname = "movie" . $count . "." . $vidext;
-                echo $vidfilenewname;
-                echo "<br><br><br>";
+                // echo $vidfilenewname;
+                // echo "<br><br><br>";
 
                 $img_upload_dir = "css/images/" . $imgfilenewname;
                 $vid_upload_dir = "res/videos/" . $vidfilenewname;
@@ -177,8 +177,8 @@ if (isset($_POST['submit'])) {
                 try {
                     mysqli_query($conn, $sql);
                     echo "Movie Registered";
-                    header("Location:admin_home.php");
-                    exit();
+
+                    header("Location: get-data.php");
 
                 } catch (mysqli_sql_exception) {
                     echo "Could Not Register";
