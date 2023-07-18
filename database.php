@@ -18,7 +18,7 @@
     }
 
     if ($conn) {
-        echo "Connected successfully <br>";
+        //echo "Connected successfully <br>";
     }
 
 
