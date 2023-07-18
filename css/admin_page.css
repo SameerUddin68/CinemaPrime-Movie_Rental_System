@@ -1,4 +1,4 @@
-/* style.css */
+/* admin_page.css */
 
 body {
     font-family: Arial, sans-serif;
@@ -30,6 +30,30 @@ main {
 
 .form-group {
     margin-bottom: 20px;
+}
+
+.inline-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group.inline-group .small-label {
+    margin-right: 10px;
+    width: 80px; /* Adjust the width to your preference */
+}
+
+.form-group.inline-group .duration-input {
+    display: flex;
+    align-items: center;
+}
+
+.form-group.inline-group .duration-input input[type="number"] {
+    width: 40px; /* Adjust the width to your preference */
+    margin-right: 5px;
+}
+
+.form-group.inline-group .duration-input span {
+    margin-right: 5px;
 }
 
 label {
