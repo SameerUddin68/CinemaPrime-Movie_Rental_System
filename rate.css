@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.rating-container {
+    margin-bottom: 20px;
+}
+
+.rating-container label,
+.review-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.rating-container select,
+.review-container textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+button[type="submit"] {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc0000;
+}
