@@ -65,13 +65,13 @@
 if (isset($_POST['signin_btn'])) {
   // Signin pressed
   // redirect to signin page
-  header("Location: signin.php");
+  header("Location: customer_signin.php");
 }
 
 if (isset($_POST['signup_btn'])) {
    // Signup pressed
     // redirect to signup page
-  header("Location: signup.php");
+  header("Location: customer_signup.php");
 }
 
 ?>
