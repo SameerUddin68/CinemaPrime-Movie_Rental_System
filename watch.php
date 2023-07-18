@@ -7,7 +7,7 @@
 <body>
     <div style="width: 600px;
     margin: 0 auto;" id="player">
-        <video style="width: 100%;" id="video-player" src="res/movies/movie2.mp4"></video>
+        <video style="width: 100%;" id="video-player" src="res/videos/movie2.webm"></video>
         <div style="display: flex;
     align-items: center;" id="controls">
             <button style="font-size: 24px;
