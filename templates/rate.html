@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="rate.css">
+    <link rel="stylesheet" type="text/css" href="css/rate.css">
+    <script src="js/rate.js"></script>
 </head>
 
 <body>
@@ -11,10 +12,11 @@
     </header>
 
     <main>
-        <form action="rate.php" method="post">
+        <form action="rate_movie.php" method="post" onsubmit="return validateReview()">
             <div class="rating-container">
                 <label for="rating">Rate the movie:</label>
-                <select id="rating" name="rating">
+                  <select id="rating" name="rating">
+                    <option selected disabled>Select a rating</option>
                     <option value="10">10</option>
                     <option value="9">9</option>
                     <option value="8">8</option>
@@ -30,10 +32,9 @@
 
             <div class="review-container">
                 <label for="review">Write a review:</label>
-                <textarea id="review" name="review" rows="4" cols="50" placeholder="Enter your review (optional)"></textarea>
+                <textarea id="review" name="review" rows="4" cols="50" placeholder="Enter your review" required></textarea>
             </div>
-
-            <button type="submit">Submit</button>
+            <button type="submit" name="submit">Submit</button>
         </form>
     </main>
 </body>
